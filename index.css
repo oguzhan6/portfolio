@@ -1,0 +1,32 @@
+nav {
+    background-color: #007bff; /* Background color of the navbar */
+    position: relative; /* To position the pseudo-element */
+    overflow: hidden; /* Hides the overflow content */
+    border-radius: 10px; /* Rounded corners for the navbar */
+    text-align: center; /* Center aligns the navigation items */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block; /* Displays list items horizontally */
+    margin: 0 10px; /* Adjust margin as needed */
+    padding: 5px;
+}
+
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: #fff; /* Text color of the links */
+    font-size: 18px; /* Adjust font size as needed */
+    padding: 10px 20px; /* Adds padding to the links */
+    display: inline-block; /* Allows padding to work properly */
+}
+
+a:hover {
+    background-color: #0056b3; /* Background color on hover */
+    border-radius: 5px; /* Adds rounded corners */
+}
