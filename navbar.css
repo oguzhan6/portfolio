@@ -6,19 +6,19 @@ nav {
     text-align: center; /* Center aligns the navigation items */
 }
 
-ul {
+nav ul {
     list-style-type: none; /* Removes bullet points from the list */
     margin: 0;
     padding: 0;
 }
 
-li {
+nav li {
     display: inline-block; /* Displays list items horizontally */
     margin: 0 10px; /* Adjust margin as needed */
     padding: 5px;
 }
 
-a {
+nav a {
     text-decoration: none; /* Removes underline from links */
     color: #fff; /* Text color of the links */
     font-size: 18px; /* Adjust font size as needed */
@@ -26,7 +26,11 @@ a {
     display: inline-block; /* Allows padding to work properly */
 }
 
-a:hover {
+nav a:hover {
     background-color: #0056b3; /* Background color on hover */
     border-radius: 5px; /* Adds rounded corners */
+}
+body{
+    font-family: monospace;
+    font-size: 16px;
 }
